@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+*{
+margin:0;
+padding:0;
+display: border-box;
+margin-right:0;
+
+}
+header{
+background:url(http://selfguide.ru/wp-content/uploads/2012/08/%D0%A8%D1%91%D0%BD%D0%B1%D1%80%D1%83%D0%BD%D0%BD-%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86-%D0%92%D0%B5%D0%BD%D0%B0-%D0%90%D0%B2%D1%81%D1%82%D1%80%D0%B8%D1%8F-Vienna-Austria.jpeg);
+background-repeat:no-repeat;
+background-position:cover;
+width:auto;
+height:auto;
+}
+main{
+  height:auto;
+  width:100%;
+}
+body{
+    background: linear-gradient(to bottom right, #FFFFCC, #FFCC00);
+  background-repeat:no-repeat;
+background-position:cover;
+}
+.symboles{
+  display:inline-block;
+  float:left;
+  padding-left:100px;
+}
+p{
+font-weight:bold;
+font-style:normal;
+font-size:20px;
+font-family: 'Roboto Condensed', sans-serif;
+padding-right:1%;
+padding-left:1%;
+padding-bottom:1%;
+}
+h1 {
+  color:#CC0000;
+  font-size:200px;
+text-align:center;
+font-family:'Oswald', sans-serif;
+text-shadow: 5px 5px 5px #000;
+}
+nav{
+list-style: none;
+margin:0;
+padding:50px;
+background:#CC0000;
+border-top: 3px solid #fff;
+border-bottom: 3px solid #0033FF;
+height:15px;
+}
+nav li{
+float: left;
+font-family: 'Oswald', sans-serif;
+
+}
+nav li a{
+display:block;
+padding: 0 70px;
+text-decoration: none;
+color:#003366;
+text-transform: uppercase;  
+}
+nav ul{
+list-style:none;
+margin-left: -3px;
+position:absolute;
+overflow:hidden;    
+}
+nav li:hover{
+background:#000;  
+color:#FFF;  
+}
+nav li a:hover{
+color:#fff;
+}
+main h2 {
+  color:#000033;
+  font-size:100px;
+text-align:center;
+font-family:'Oswald', sans-serif;
+text-shadow: 3px 3px 3px #000;
+}
+
+#gerb{
+      text-align:center;
+float:left;
+padding-right:200px;
+}
+ #flag{
+    text-align:center;
+float:left;
+padding-right:200px;
+ }
+#gimn{
+float:left;
+
+}
+#gimn h3{
+  text-align:center;
+}
+
+#mainsymboles{
+
+}
+
+#mainparlament{
+  text-align:justify;
+  
+
+}
+.budpar {
+padding-left:239px;
+filter: brightness(0.80);
+left:250px;
+}
+
+#capital{
+  text-align:center;
+  
+}
+#map{
+  text-align:center;
+}
+main h3 {
+  color:#330033;
+  font-size:50px;
+font-family:'Oswald', sans-serif;
+text-shadow: 2px 2px 2px #000;
+text-align:center;
+}
+main h4 {
+  color:#330033;
+  font-size:25px;
+font-family:'Oswald', sans-serif;
+text-shadow: 2px 2px 2px #000;
+}
+.mainpersons{
+  display:inline-block;
+  float:left;
+}
+#president{
+  text-align:center;
+ float:left;
+ padding-right:600px;
+}
+#canzler{
+  text-align:center;
+float:left;
+}
+#stefan h3{
+  text-align:center;
+}
+#stefan p{
+  text-align:justify;
+}
+#stefan {
+  padding-right:100px;
+float:left;
+
+}
+.turist{
+  float:left;
+    display:inline-block;
+    padding-left:5%;
+}
+#parter{
+  float:left;
+}
+#shtiria h3{
+  text-align:center;
+}
+#shtiria p{
+
+}
+#shtiria {
+  padding-right:100px;
+  float:left;
+
+}
+.turist2{
+  float:left;
+    display:inline-block;
+    padding-left:5%;
+}
+#karintia{
+  float:left;
+}
+#karintia h3{
+  text-align:center;
+}
+#karintia p{
+  text-align:justify;
+}
+footer{
+  background:url(http://www.ort.org.ua/dbs.8.all/skin/i/ort-logo.png);
+  background-repeat:no-repeat;
+  background-position:cover;
+    background-size:cover;
+  position:absolute;
+  bottom:-654%;
+  width:98vw;
+  height:12vw;
+  border: 5px solid  #000000;
+
+}
